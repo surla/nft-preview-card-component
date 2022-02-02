@@ -12,24 +12,36 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
     <title>NFT preview card component</title>
   </head>
   <body>
-    <h1>Equilibrium #3429</h1>
+    <div class="card-component">
+      <h1 class="card-title">Equilibrium #3429</h1>
 
-    <p>Our Equilibrium collection promotes balance and calm.</p>
+      <p class="card-description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
 
-    <p>0.041 ETH</p>
-    <p>3 days left</p>
+      <p class="card-price">0.041 ETH</p>
+      <p class="card-time">3 days left</p>
 
-    <p>Creation of Jules Wyvern</p>
+      <p class="author">Creation of <span id="name">Jules Wyvern</span></p>
+    </div>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
       <a href="https://www.frontendmentor.io/profile/surla">Joseph Surla</a>.
-    </div>
+    </div> -->
   </body>
 </html>
