@@ -23,25 +23,64 @@
     <title>NFT preview card component</title>
   </head>
   <body>
-    <div class="card-component">
-      <h1 class="card-title">Equilibrium #3429</h1>
-
-      <p class="card-description">
-        Our Equilibrium collection promotes balance and calm.
-      </p>
-
-      <p class="card-price">0.041 ETH</p>
-      <p class="card-time">3 days left</p>
-
-      <p class="author">Creation of <span id="name">Jules Wyvern</span></p>
+    <div class="container">
+      <div class="card-component">
+        <div class="img-section">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="Cube balancing on one corner"
+            class="image"
+          />
+          <div class="overlay">
+            <a href="#" class="icon"
+              ><img
+                src="images/icon-view.svg"
+                alt="View icon"
+                class="icon-view"
+            /></a>
+          </div>
+        </div>
+        <h2 class="card-title">
+          <a href="#" class="card-title__link">Equilibrium #3429</a>
+        </h2>
+        <p class="card-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="price-time flex">
+          <div class="card-price flex">
+            <img src="images/icon-ethereum.svg" alt="Ethereum Icon" />
+            <p>0.041 ETH</p>
+          </div>
+          <div class="flex">
+            <img src="images/icon-clock.svg" alt="Clock icon" />
+            <p>3 days left</p>
+          </div>
+        </div>
+        <hr />
+        <div class="profile flex">
+          <img
+            class="avatar"
+            src="images/image-avatar.png"
+            alt="Profile Avatar"
+          />
+          <span class="author"
+            >Creation of
+            <span id="name"
+              ><a href="#" class="user-link">Jules Wyvern</a>
+            </span></span
+          >
+        </div>
+      </div>
     </div>
-
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://www.frontendmentor.io/profile/surla">Joseph Surla</a>.
-    </div> -->
+    <!-- 
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/surla">Joseph Surla</a>.
+      </div>
+    </footer> -->
   </body>
 </html>
